@@ -1,0 +1,9 @@
+Package: kriging
+Version: 0.1
+Date: 2011-07-05
+Title: Geospatial prediction and kriging using the shapefile format
+Author: Omar O. <omar@omar.com>
+Maintainer: Omar O. <omar@omar.com>
+Depends: R(>= 2.6.0), maptools, gstat, lattice
+Description: The kriging packages bridges various other methods and classes to establish a simple tool to make geospatial predictions.
+License: GPL (>=2)

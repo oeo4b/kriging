@@ -1,4 +1,4 @@
+import(maptools, splancs, gstat, lattice)
 export(gridshape, kriging)
 exportMethods(gridshape, kriging, plot)
 exportClasses(kriging)
-import(maptools, gstat, lattice)

@@ -3,5 +3,5 @@
 #
 
 setMethod("plot", 
-  signature(x="Kriging")
+  signature(x="kriging")
 )

@@ -2,8 +2,6 @@
 # Kriging using an object of class SpatialPixels
 # Returns gstat object
 
-library(gstat)
-
 # Generic function
 setGeneric("kriging",
   function(space, response, coordinates, ...)

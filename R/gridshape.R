@@ -2,9 +2,6 @@
 # Methods to convert Map object to gridded SpatialPixels object 
 #
 
-library(maptools)
-library(splancs)
-
 # Generic function
 setGeneric("gridshape",
   function(shape, ...)

@@ -10,7 +10,8 @@ setGeneric("kriging",
 
 # New class definition
 setClass("kriging",
-  representation(object = "gstat")
+  representation(title = "character"),
+  contains = "SpatialPixelsDataFrame"
 )
 
 # Create a gstat object 
@@ -38,7 +39,8 @@ setMethod("kriging",
     # Perform ordinary kriging prediction
     q <- predict.gstat(h, model = w.fit, newdata = space);
 
-    # Return as gstat object
+    # Return as kriging object
+    q <-  new("kriging", q)
     return(q)
   }
 )
